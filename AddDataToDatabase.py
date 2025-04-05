@@ -31,21 +31,13 @@ students_collection = db['Students']  # MongoDB collection name
 
 # Data to insert
 data = {
-    "1": dict(name="Harshal", Department="IT", starting_year=2022, total_attendance=73, standing="G", year=4,
-              last_attendance_time="2025-2-2 00:54:34"),
+    
     "2": dict(name="Elon Musk", Department="IT", starting_year=2022, total_attendance=12, standing="G", year=4,
               last_attendance_time="2025-2-2 00:54:34"),
     "3": dict(name="sundar", Department="IT", starting_year=2022, total_attendance=24, standing="G", year=4,
-              last_attendance_time="2025-2-2 00:54:34"),
-    # "4": dict(name="OMKAR", Department="IT", starting_year=2022, total_attendance=1, standing="G", year=4,
-    #           last_attendance_time="2025-2-2 00:54:34"),
-    "4": dict(name="Papa", Department="IT", starting_year=2022, total_attendance=1, standing="G", year=4,
-              last_attendance_time="2025-2-2 00:54:34"),
-    "5": dict(name="Mummy", Department="IT", starting_year=2022, total_attendance=1, standing="G", year=4,
-              last_attendance_time="2025-2-2 00:54:34"),
-    
-    "6": dict(name="Unnati", Department="IT", starting_year=2022, total_attendance=1, standing="G", year=4,
               last_attendance_time="2025-2-2 00:54:34")
+    
+
     
 
 }
