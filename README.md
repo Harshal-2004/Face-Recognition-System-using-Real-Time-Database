@@ -8,7 +8,7 @@ This project demonstrates a practical implementation of real-time face recogniti
 This repository contains code for a Face Recognition System that:
 
 - Detects and recognizes faces from live camera/video feed.
-- Stores and updates face data in a real-time database (e.g., Firebase).
+- Stores and updates face data in a real-time database ( MongoDB ).
 - Can be used for attendance, authentication, or monitoring scenarios.
 
 ## 🛠️ Technologies Used
@@ -16,8 +16,8 @@ This repository contains code for a Face Recognition System that:
 - **Python**
 - **OpenCV** (for face detection and recognition)
 - **NumPy**
-- **Firebase Realtime Database** (or other real-time database)
-- **Tkinter** (for user interface, if included)
+- **MongoDB  Realtime Database** 
+- **Tkinter** (for user interface)
 - Other supporting libraries as required
 
 ## 📦 Features
