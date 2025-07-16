@@ -38,7 +38,15 @@ This system enables you to:
 
 ## 📸 Demo
 
-<!-- Add demo screenshots or GIFs here if available -->
+## 📸 Demo
+
+Below is a step-by-step demonstration of how the application works:
+
+| Step | Screenshot | Caption |
+|------|------------|---------|
+| 1. Face Detected Encoded & Information Page | ![Step 1 Placeholder](demo/step2.png) | As soon as a face appears in the frame, the system detects and encodes the face data. || After encoding, an information window pops up showing user details and confirmation. |
+| 2. Attendance Marked | ![Step 4 Placeholder](demo/step4.png) | The system marks attendance and displays a success message. |
+| 3. Re-Entry Within 30 Seconds | ![Step 5 Placeholder](demo/step5.png) | If the same face is detected again within 30 seconds, a notification appears: "Already marked." |
 
 ---
 
