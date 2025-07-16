@@ -49,25 +49,27 @@ Below is a step-by-step demonstration of how the application works:
 | 3. Re-Entry Within 30 Seconds | ![Step 5 Placeholder](demo/sundar_Already.png) | If the same face is detected again within 30 seconds, a notification appears: "Already marked." |
 
 ---
-
 ## 💡 How It Works
 
-1. **Face Detection**  
-   - Captures live frames using OpenCV  
-   - Detects faces using Haar cascades or CNN models  
+### 📸 Face Detection
+- Captures live video frames using OpenCV and your webcam.
+- Utilizes **HOG-based face detection** (via the `face_recognition` library) for fast and accurate face location tracking in real time.
 
-2. **Face Recognition**  
-   - Compares input face with stored encodings  
-   - Identifies or labels unknown faces  
+### 🧠 Face Recognition
+- Encodes facial features using the `face_recognition` library.
+- Compares detected faces against the database of stored face encodings.
+- Automatically identifies known faces and marks unknown faces for registration or alert.
 
-3. **Database Integration**  
-   - MongoDB stores user info and attendance logs  
-   - Real-time updates ensure accurate tracking  
+### 🗄️ Database Integration (MongoDB)
+- Uses MongoDB to store:
+  - User details (such as name, ID, and face encodings)
+  - Real-time attendance logs with timestamps
+- Ensures data persistence, instant updates, and easy retrieval of attendance history.
 
-4. **User Interface (Optional)**  
-   - Register new users  
-   - View attendance records  
-   - Search or delete entries  
+### 🖥️ User Interface (Optional)
+- Register new users directly via webcam.
+- View, search, and manage attendance records.
+- Delete or update specific entries from the database through a simple UI.
 
 ---
 
